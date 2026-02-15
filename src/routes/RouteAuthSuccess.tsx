@@ -1,4 +1,5 @@
 import Dashboard from "@/pages/Dashboard";
+import RoomPage from "@/pages/RoomPage";
 
 const RouteAuthSuccess = [
   {
@@ -7,7 +8,7 @@ const RouteAuthSuccess = [
   },
   {
     path: "ruangan",
-    element: <div>Ruangan</div>,
+    element: <RoomPage />,
   },
   {
     path: "booking",
