@@ -1,3 +1,4 @@
+import BookingPage from "@/pages/BookingPage";
 import Dashboard from "@/pages/Dashboard";
 import RoomPage from "@/pages/RoomPage";
 
@@ -12,7 +13,7 @@ const RouteAuthSuccess = [
   },
   {
     path: "booking",
-    element: <div>Booking</div>,
+    element: <BookingPage />,
   }
 ];
 
